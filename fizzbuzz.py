@@ -1,6 +1,6 @@
 import sys
 def fizzbuzz(n):
-	for i in range(1,n):
+	for i in range(1,n+1):
 		if(i%6==0):
 			print("fizzbuzz")
 		elif(i%2==0):
